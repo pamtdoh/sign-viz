@@ -1,0 +1,19 @@
+{
+  "name": "sign-viz",
+  "packageManager": "yarn@3.1.1",
+  "dependencies": {
+    "@pixiv/three-vrm": "^0.6.7",
+    "chart.js": "^3.6.2",
+    "dat.gui": "^0.7.7",
+    "three": "^0.135.0"
+  },
+  "devDependencies": {
+    "@types/three": "^0.135.0",
+    "parcel": "^2.0.1",
+    "typescript": "^4.5.4",
+    "typings": "^2.1.1"
+  },
+  "scripts": {
+    "start": "parcel src/index.html --no-hmr"
+  }
+}
