@@ -14,6 +14,7 @@
     "typings": "^2.1.1"
   },
   "scripts": {
-    "start": "parcel src/index.html --no-hmr"
+    "start": "parcel src/index.html --no-hmr",
+    "build": "parcel build src/index.html --public-url ./"
   }
 }
